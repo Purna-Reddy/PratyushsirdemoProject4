@@ -1,0 +1,31 @@
+<div class="banner-info">
+			<h3>Engineeered Services at Bargained Price</h3>	
+			
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+<script>
+$(document).ready(function() {
+  $("#txtpname").autocomplete({
+    source: [
+      "AC",
+      "Villa",
+      "Apartment",
+      "Painting",
+      "Swimming Pool",
+      "Pest control",
+      "Building Repair",
+      "Steel Structure",
+      "Gym"
+    ],
+    minLength: 1
+  });
+});
+</script>
+	<div class="search-form">
+<form method="get">
+  <input type="text" name="txtpname" id="txtpname" placeholder="Search for a service e.g. Painting" class="ui-autocomplete-input" autocomplete="off">
+  	<input type="submit" value=" ">
+</form>
+</div>
+		</div>
